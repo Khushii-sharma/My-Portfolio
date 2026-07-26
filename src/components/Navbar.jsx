@@ -47,7 +47,8 @@ const Navbar = () => {
     { name: "Home", href: "#home", id: "home" },
     { name: "About Me", href: "#about", id: "about" },
     { name: "Skills", href: "#skills", id: "skills" },
-    { name: "Projects", href: "#projects", id: "projects" },
+    { name: "Experience", href: "#experience", id: "experience" },
+    { name: "Project", href: "#project", id: "project" },
     { name: "Contact", href: "#contact", id: "contact" },
   ];
 
@@ -104,7 +105,7 @@ const Navbar = () => {
           {/* Mobile Hamburger */}
           <button
             onClick={() => setMenuOpen(true)}
-            className="lg:hidden text-white hover:text-orange-500 transition"
+            className="cursor-pointer lg:hidden text-white hover:text-orange-500 transition"
           >
             <HiOutlineMenuAlt3 size={38} />
           </button>
@@ -137,7 +138,7 @@ const Navbar = () => {
 
           <button
             onClick={() => setMenuOpen(false)}
-            className="text-white hover:text-orange-500 transition duration-300"
+            className="cursor-pointer text-white hover:text-orange-500 transition duration-300"
           >
             <HiX size={34} />
           </button>

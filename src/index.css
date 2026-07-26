@@ -8,3 +8,52 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* ================= EXPERIENCE ================= */
+
+.experience-card{
+    transition:all .45s ease;
+}
+
+.experience-card:hover{
+    transform:translateY(-6px);
+    border-color:#f97316;
+    background:#1b1f28;
+    box-shadow:0 12px 30px rgba(249,115,22,.08);
+}
+
+/* Skill chips */
+
+.experience-card:hover span{
+    border-color:rgba(249,115,22,.35);
+}
+
+/* Circle */
+
+.timeline-circle{
+    transition:all .45s ease;
+}
+
+.timeline-icon{
+    transition:all .45s ease;
+}
+
+/* Card controls circle */
+
+@supports(selector(:has(*))){
+
+.timeline-item:has(.experience-card:hover) .timeline-circle{
+
+    background:white;
+    transform:scale(1.08);
+    box-shadow:0 0 16px rgba(249,115,22,.20);
+
+}
+
+.timeline-item:has(.experience-card:hover) .timeline-icon{
+
+    color:#111827;
+
+}
+
+}

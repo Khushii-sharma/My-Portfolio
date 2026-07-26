@@ -93,21 +93,21 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex justify-center lg:justify-start gap-4 mt-8">
             <a
-              href="#"
+              href="https://github.com/Khushii-sharma"
               className="w-12 h-12 rounded-full border border-gray-700 flex items-center justify-center hover:border-orange-500 hover:text-orange-500 transition"
             >
               <FaGithub size={18} />
             </a>
 
             <a
-              href="#"
+              href="https://www.linkedin.com/in/khushi-sharma-691555263/"
               className="w-12 h-12 rounded-full border border-gray-700 flex items-center justify-center hover:border-orange-500 hover:text-orange-500 transition"
             >
               <FaLinkedinIn size={18} />
             </a>
 
             <a
-              href="#"
+              href="mailto:sharmakhushi1501@gmail.com"
               className="w-12 h-12 rounded-full border border-gray-700 flex items-center justify-center hover:border-orange-500 hover:text-orange-500 transition"
             >
               <FaEnvelope size={18} />
