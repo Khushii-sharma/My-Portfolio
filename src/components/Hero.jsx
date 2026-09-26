@@ -150,7 +150,7 @@ const Hero = () => {
 
               <div className="w-full h-full rounded-full overflow-hidden bg-white">
                 <img
-                  src="/profile_pic.png"
+                  src="profile_pic.png"
                   alt="Khushi Kumari"
                   className="w-full h-full object-cover transition-all duration-500"
                   style={{ objectPosition: "center 25%" }}
