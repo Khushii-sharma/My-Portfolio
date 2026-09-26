@@ -3,6 +3,7 @@ import { FiDownload } from "react-icons/fi";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 
+
 const Hero = () => {
   return (
     <section
@@ -150,8 +151,7 @@ const Hero = () => {
 
               <div className="w-full h-full rounded-full overflow-hidden bg-white">
                 <img
-                  src="profile_pic.png"
-                  alt="Khushi Kumari"
+                  src="profile_pic.png" alt="Profile"
                   className="w-full h-full object-cover transition-all duration-500"
                   style={{ objectPosition: "center 25%" }}
 
