@@ -3,6 +3,28 @@ import { FaBriefcase, FaGraduationCap } from "react-icons/fa";
 const timeline = [
   {
     type: "work",
+    date: "April 2026 — Present",
+    title: "Full Stack Web Developer Intern",
+    company: "KodNest • Bangalore",
+    badge: "Internship",
+    description: [
+      "Engineered full-stack web features using Python, Django, React, and JavaScript.",
+      "Developed RESTful API endpoints and interactive React components for real-time data interaction.",
+      "Conducted UI debugging and frontend performance tuning using modern browser DevTools.",
+      "Utilized Git for version control and collaborative code management in an agile team environment."
+    ],
+    skills: [
+      "Python",
+      "Django",
+      "React.js",
+      "JavaScript",
+      "REST APIs",
+      "HTML5 / CSS3",
+      "Git"
+    ]
+  },
+  {
+    type: "work",
     date: "September 2025 — February 2026",
     title: "Frontend Developer Intern",
     company: "Lux Loom Fashion Pvt. Ltd. • Noida",

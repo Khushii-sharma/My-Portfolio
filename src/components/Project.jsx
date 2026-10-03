@@ -9,6 +9,49 @@ import {
 
 const projects = [
   {
+    category: "FULL STACK",
+    title: "InternTrack",
+
+    github: "https://github.com/Khushii-sharma/InternTrack",
+    live: "https://intern-track-iota.vercel.app/",
+
+    description:
+      "Built a full-stack job application tracker using React, Node.js, Express.js, and MongoDB featuring JWT authentication, application CRUD operations, search and filtering, interview round tracking, follow-up reminders, and responsive UI.",
+
+    tech: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "Axios",
+      "Tailwind CSS",
+    ],
+  },
+
+  {
+    category: "FULL STACK",
+    title: "BiteRush",
+
+    github: "https://github.com/Khushii-sharma/BiteRush",
+    live: "https://biterush-im3b.onrender.com/",
+
+    description:
+      "Built a full-stack food delivery web application using Python, Django, and JavaScript featuring user profile management, vendor dashboards, dynamic menu CRUD operations, order history tracking, and mobile-responsive UI templates.",
+
+    tech: [
+      "Python",
+      "Django",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Django ORM",
+      "SQLite",
+    ],
+  },
+
+  {
     category: "FRONTEND",
     title: "Recipe Diary",
 
@@ -45,6 +88,27 @@ const projects = [
       "Axios",
       "Tailwind",
       "REST API",
+    ],
+  },
+
+  {
+    category: "PYTHON / AI",
+    title: "Smart Resume Matcher",
+
+    github: "https://github.com/Khushii-sharma/smart-resume-matcher",
+    live: "https://smart-resume-matcher-vxk3wvh9mqch7m2ypfjtwv.streamlit.app/",
+
+    description:
+    "Built an AI-powered web application using Python, Google Gemini API, and Streamlit to automatically analyze resume PDFs against job descriptions, extract structured match scores, highlight missing skill gaps, and provide actionable optimization feedback.",
+
+    tech: [
+    "Python",
+    "Google Gemini API",
+    "Streamlit",
+    "PyMuPDF",
+    "Pydantic",
+    "JSON / REST APIs",
+    "Git",
     ],
   },
 ];

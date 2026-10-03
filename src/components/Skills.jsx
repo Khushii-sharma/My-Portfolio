@@ -26,17 +26,17 @@ const categories = {
   backend: [
     {
       name: "Java",
-      value: 70,
+      value: 80,
       icon: <FaJava className="text-orange-500" />,
     },
     {
       name: "Node.js",
-      value: 75,
+      value: 85,
       icon: <FaNodeJs className="text-green-500" />,
     },
     {
       name: "REST APIs",
-      value: 80,
+      value: 85,
       icon: <MdApi className="text-sky-400" />,
     },
     {
@@ -64,7 +64,7 @@ const categories = {
     },
     {
       name: "Python",
-      value: 80,
+      value: 90,
       icon: <FaPython className="text-blue-400" />,
     },
   ],
@@ -82,12 +82,12 @@ const categories = {
     },
     {
       name: "Git & GitHub",
-      value: 80,
+      value: 90,
       icon: <FaGitAlt className="text-orange-500" />,
     },
     {
       name: "VS Code & IDEs",
-      value: 80,
+      value: 90,
       icon: <FaCode className="text-blue-500" />,
     },
   ],

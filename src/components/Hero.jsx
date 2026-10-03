@@ -68,14 +68,14 @@ const Hero = () => {
           {/* Buttons */}
           <div className="flex flex-wrap justify-center lg:justify-start gap-4 mt-8">
             <a
-              href="#projects"
+              href="#project"
               className="px-6 py-3 text-[15px] font-medium rounded-full bg-gradient-to-r from-orange-600 to-orange-400 hover:scale-105 transition duration-300 shadow-lg shadow-orange-500/20"
             >
               View Projects
             </a>
 
             <a
-              href="/Khushi_resume.pdf"
+              href={`${import.meta.env.BASE_URL}Khushi_resume.pdf`}
               download="Khushi_resume.pdf"
               className="px-6 py-3 text-[15px] font-medium rounded-full border border-gray-700 bg-[#111] hover:border-orange-500 transition flex items-center gap-2"
             >
